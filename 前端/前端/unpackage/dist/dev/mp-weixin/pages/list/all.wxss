@@ -1,0 +1,68 @@
+
+page{background-color: #F7F7F7;}
+.aui-list-theme-box {padding: 10px 0 0 1rem;overflow: hidden;position: relative;}
+.aui-list-item {width: 46%;float: left;margin: 0 4% 2% 0;background: #fff;display: block;overflow: hidden;}
+.aui-list-theme-img {height:120px;width: 100%;position: relative;}
+.aui-list-theme-message {background: #fff;padding: 0.3rem 0;}
+.aui-list-theme-title {color: #333;font-size: 0.92rem;margin: 0.2rem 0;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;word-break: break-all;font-weight: normal;text-overflow: ellipsis;}
+	/* .ico_common {display: block;position: absolute;right: 0;top: 0;width: 40px;height: 40px;background-repeat: no-repeat;background-position: center center;background-size: 100%;background-image: url(../../static/image/new.png);} */
+.learned {display: inline-block;background-color: rgba(0, 0, 0, 0.5);padding: 3px 6px;font-size: 10px;position: absolute;color: white;font-weight: normal;bottom: 1px;right: 1px; border-radius: 5px;}
+.postlist-bg { 
+		background-color: #FFFFFF;
+		border-radius: 30rpx;
+		overflow: hidden;
+		margin: 20rpx;
+}
+	/* 内容数据 */
+.menu-scroll-list-describe {
+		color: #ADADAD;
+		font-size: 20rpx;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+}
+.list-li-tag {
+		color: #0BBDA6;
+		font-size: 20rpx;
+}
+.menu-scroll-list-h {
+		font-size: 28rpx;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+}
+.menu-scroll-list-right {
+		margin-left: 32rpx;
+		width: 420rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-flow: column;
+		        flex-flow: column;
+}
+.menu-scroll-list-img {
+		width: 360rpx;
+		height: 160rpx;
+		border-radius: 16rpx;
+		overflow: hidden;
+}
+.menu-scroll-list {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		margin: 20rpx 20rpx;
+}
+.fengrui-img {
+		width: 100%;
+		height: 100%;
+}
+

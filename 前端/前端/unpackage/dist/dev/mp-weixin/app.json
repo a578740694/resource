@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/ce",
+    "pages/index/tags",
+    "pages/index/notice",
+    "pages/index/scout",
+    "pages/type/type",
+    "pages/type/list",
+    "pages/faxian/faxian",
+    "pages/user/user",
+    "pages/user/vip",
+    "pages/user/faq",
+    "pages/user/about",
+    "pages/user/praise",
+    "pages/user/buy",
+    "pages/user/collect",
+    "pages/user/kami",
+    "pages/user/gengduo",
+    "pages/login/login",
+    "pages/details/details",
+    "pages/list/news",
+    "pages/list/hot",
+    "pages/list/all",
+    "pages/list/vip"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "电竞挑战",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#F19E38",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/tabbar/1-1.png",
+        "selectedIconPath": "static/tabbar/1.png"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "text": "分类",
+        "iconPath": "./static/tabbar/2-1.png",
+        "selectedIconPath": "static/tabbar/2.png"
+      },
+      {
+        "pagePath": "pages/faxian/faxian",
+        "text": "发现",
+        "iconPath": "./static/tabbar/3-1.png",
+        "selectedIconPath": "static/tabbar/3.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tabbar/4-1.png",
+        "selectedIconPath": "static/tabbar/4.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap7.json"
+}

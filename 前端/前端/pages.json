@@ -1,0 +1,160 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "创客库"
+            }
+        },{
+            "path" : "pages/index/ce",
+            "style" : {
+                "navigationBarTitleText" : "公告"
+            }
+        },{
+            "path" : "pages/index/tags",
+            "style" : {
+                "navigationBarTitleText" : "资源星球"
+            }
+        },{
+            "path" : "pages/index/notice",
+            "style" : {
+                "navigationBarTitleText" : "公告"
+            }
+        },{
+            "path" : "pages/index/scout",
+            "style" : {
+                "navigationBarTitleText" : "搜索结果"
+            }
+        },{
+            "path" : "pages/type/type",
+            "style" : {
+                "navigationBarTitleText" : "分类"
+            }
+        },{
+            "path" : "pages/type/list",
+            "style" : {
+                "navigationBarTitleText" : "分类列表"
+            }
+        },{
+            "path" : "pages/faxian/faxian",
+            "style" : {
+                "navigationBarTitleText" : "发现"
+            }
+        },{
+            "path" : "pages/user/user",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        },{
+            "path" : "pages/user/vip",
+            "style" : {
+                "navigationBarTitleText" : "升级会员"
+            }
+        },{
+            "path" : "pages/user/faq",
+            "style" : {
+                "navigationBarTitleText" : "使用说明"
+            }
+        },{
+            "path" : "pages/user/about",
+            "style" : {
+                "navigationBarTitleText" : "关于我们"
+            }
+        },{
+            "path" : "pages/user/praise",
+            "style" : {
+                "navigationBarTitleText" : "赞赏支持"
+            }
+        },{
+            "path" : "pages/user/buy",
+            "style" : {
+                "navigationBarTitleText" : "购买记录"
+            }
+        },{
+            "path" : "pages/user/collect",
+            "style" : {
+                "navigationBarTitleText" : "收藏记录"
+            }
+        },{
+            "path" : "pages/user/kami",
+            "style" : {
+                "navigationBarTitleText" : "激活卡密"
+            }
+        },{
+            "path" : "pages/user/gengduo",
+            "style" : {
+                "navigationBarTitleText" : "更多好玩"
+            }
+        },{
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登录"
+            }
+        },{
+            "path" : "pages/details/details",
+            "style" : {
+                "navigationBarTitleText" : "详细"
+            }
+        },{
+            "path" : "pages/list/news",
+            "style" : { 
+                "navigationBarTitleText" : "最新发布"
+            }
+        },{
+            "path" : "pages/list/hot",
+            "style" : {
+                "navigationBarTitleText" : "热门点击"
+            }
+        },{
+            "path" : "pages/list/all",
+            "style" : {
+                "navigationBarTitleText" : "全部资源"
+            }
+        },{
+            "path" : "pages/list/vip",
+            "style" : {
+                "navigationBarTitleText" : "VIP资源"
+            }
+        }    
+        
+    ],
+    "globalStyle" : {
+      "navigationBarTextStyle": "black",
+        "navigationBarTitleText" : "电竞挑战",
+       "navigationBarBackgroundColor": "#FFFFFF",
+       "backgroundColor": "#FFFFFF"
+    },
+    "tabBar" : {
+       "color":"#000000",//未选中字体
+       "selectedColor":"#F19E38",//选中字体
+       "backgroundColor":"#FFFFFF",//背景颜色
+        "borderStyle" : "black",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "首页",
+                "iconPath" : "./static/tabbar/1-1.png",
+                "selectedIconPath" : "static/tabbar/1.png"
+            },
+            {
+                "pagePath" : "pages/type/type",
+                "text" : "分类",
+                "iconPath" : "./static/tabbar/2-1.png",
+                "selectedIconPath" : "static/tabbar/2.png"
+            },
+            {
+                "pagePath" : "pages/faxian/faxian",
+                "text" : "发现",
+                "iconPath" : "./static/tabbar/3-1.png",
+                "selectedIconPath" : "static/tabbar/3.png"
+            },
+            {
+                "pagePath" : "pages/user/user",
+                "text" : "我的",
+                "iconPath" : "static/tabbar/4-1.png",
+                "selectedIconPath" : "static/tabbar/4.png"
+            }
+        ]
+    }
+}

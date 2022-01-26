@@ -1,0 +1,5 @@
+<view class="wrap"><view class="{{['fload',isFload?'hide':'show']}}">散文是一个汉语词汇，拼音是sǎn wén。
+一指文采焕发；二指犹行文；三指文体名。散文是一种抒发作者真情实感、
+散文是一个汉语词汇，拼音是sǎn wén。一指文采焕发；
+二指犹行文；三指文体名。散文是一种抒发作者真情实感、
+写作方式灵活的记叙类文学体裁。“散文”一词大概出现在北宋太平...</view><block wx:if="{{isFload}}"><text data-event-opts="{{[['tap',[['fload',['$event']]]]]}}" class="iconfont upArrow switch" bindtap="__e">12</text></block><block wx:if="{{!isFload}}"><text data-event-opts="{{[['tap',[['fload',['$event']]]]]}}" class="iconfont downArrow switch" bindtap="__e">2</text></block></view>

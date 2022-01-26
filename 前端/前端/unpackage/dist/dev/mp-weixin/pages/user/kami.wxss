@@ -1,0 +1,10 @@
+
+.body{width: 100%;height: 100vh;overflow-y: scroll;background-color: #fff;background-repeat: no-repeat;background-size: cover;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-webkit-flex-direction: column;flex-direction: column;-webkit-box-align: center;-webkit-align-items: center;align-items: center;padding-top: 3rem;/* background: url(../../static/image/bg02.png) */
+}
+.login-content{width: 100%; padding: 0 2rem;}
+.van-cell-van-field{margin-bottom: 1rem;position: relative;display: -webkit-box;display: -webkit-flex;display: flex;box-sizing: border-box;width: 100%;padding: 10px 16px;overflow: hidden;color: #323233;font-size: 14px;line-height: 24px;background-color: #fff;}
+.shu{color: #323233;text-align: left;position: relative;overflow: hidden;vertical-align: middle;word-wrap: break-word;}
+.text{display: block;box-sizing: border-box;width: 100%;min-width: 0;margin: 0;padding: 0;color: #323233;text-align: left;background-color: transparent;border: 0;resize: none;}
+.submit-btn{padding: 2rem;padding-bottom: 0;width: 100%;}
+.submit{width: 100%;height: 2.53rem;line-height: 2.53rem;background: -webkit-linear-gradient(right,#ff700a,#F19E38);background: linear-gradient(to left,#ff700a,#F19E38);color: #fff;text-align: center;font-size: .9rem;font-weight: 700;}
+

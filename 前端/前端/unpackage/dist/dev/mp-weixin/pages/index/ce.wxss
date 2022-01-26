@@ -1,0 +1,33 @@
+
+.wrap{
+	width:700rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size:26rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 0 auto;
+}
+.fload{
+	width:600rpx;
+	height: auto;
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-right: 40rpx;
+	background-color:#F5F5F5;
+}
+.hide{
+	display: -webkit-box;
+}
+.show{
+	display: block;
+}
+
+
+

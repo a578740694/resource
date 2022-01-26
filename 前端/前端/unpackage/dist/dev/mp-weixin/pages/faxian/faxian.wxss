@@ -1,0 +1,323 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 没有数据时候 */
+.no-text {
+	color: #e6e6e6;
+	text-align: center;
+	font-size: 24rpx;
+}
+.no-img {
+	margin: auto;
+	height: 400rpx;
+	width: 400rpx;
+}
+.no-datalist {
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 60rpx;
+}
+/* 列表 */
+.list-li-left-describe {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	color: #D5D5D5;
+	font-size: 20rpx;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.list-li-tag {
+	color: #0BBDA6;
+	font-size: 20rpx;
+}
+.list-li-left-h {
+
+	font-size: 26rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.list-li-left {
+	margin-left: 32rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
+	height: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column;
+	        flex-flow: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.list-img {
+	height: 120rpx;
+	width: 140rpx;
+	border-radius: 14rpx;
+	overflow: hidden;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.list-li {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 20rpx 30rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #fff;
+	padding: 24rpx;
+	border-radius: 20rpx;
+}
+/* 标题 */
+.title-h-ad {
+	height: 240rpx;
+	border-radius: 16rpx;
+	margin: 48rpx;
+	overflow: hidden;
+}
+.titel-h {
+	font-size: 28rpx;
+	margin: 38rpx 30rpx;
+}
+/* 标签 */
+.swiper-list {
+	margin: 20rpx 30rpx 0rpx 30rpx;
+	white-space: nowrap;
+	width: 100%;
+}
+.label-list {
+	height: 50rpx;
+	padding: 4rpx 20rpx;
+	background: -webkit-linear-gradient(left, rgba(67, 130, 235, 1) 0%, rgba(6, 189, 254, 1) 100%);
+	background: linear-gradient(90deg, rgba(67, 130, 235, 1) 0%, rgba(6, 189, 254, 1) 100%);
+	border-radius: 100rpx;
+	margin-right: 40rpx;
+	color: #FFFFFF;
+	font-size: 28rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	display: inline-block;
+}
+.container {
+	/* margin: 0upx 40upx; */
+	/* background-color: #FFFFFF; */
+	/* border-radius: 20upx; */
+}
+.fengrui-img {
+	height: 100%;
+	width: 100%;
+}
+.overfor-x{
+	overflow-x: hidden;
+}
+page {
+	background-color: #F7F7F7;
+	overflow-x: hidden;
+}
+/* 暗黑模式下应用的样式 */
+@media (prefers-color-scheme: dark) {
+page {
+		background: #161616;
+}
+.list-li{
+		background: #202020;
+}
+.uni-searchbar__box {
+		border-color: #202020;
+}
+}
+
